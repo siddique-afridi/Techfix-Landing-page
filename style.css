@@ -20,7 +20,7 @@ body{
 }
 .navbar{
     /* margin-top: 20px; */
-    padding: 8px 40px;
+    padding: 15px 40px;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -28,7 +28,7 @@ body{
 }
 .navbar .logo{
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 0px;
     background-color: black;
     width: 50px;
     height: 30px;
@@ -49,9 +49,13 @@ body{
      color: #FFD700;
     text-decoration: none;
 }
+.a-tag:hover{
+    color: #ffffff;
+    transition: .5s ease;
+}
 
 .btn{
-    padding: 0px 15px;
+    padding: 10px 15px;
     margin-bottom: 10px;
     border-radius: 30px;
     background-color:#FFD700;
@@ -267,6 +271,9 @@ article .text h3{
     h3{
         font-size: 60px;
     }
+    p, a{
+       color:  rgba(255, 255, 255, 0.599);
+    }
 }
 
 .contact-us .content{
@@ -283,7 +290,7 @@ article .text h3{
 }
 .image{
     margin-top: 0px;
-    background-image: url(/images/it-relocation-techfix1712407804.webp);
+    background-image: url(./assets/images/it-relocation-techfix1712407804.webp);
     background-position:center;
     height: 550px;
     width: 45%;
